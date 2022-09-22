@@ -1,0 +1,12 @@
+{
+  "name": "mountain-fortress",
+  "version": "0.0.1",
+  "dependencies": {
+    "verdaccio": "^5.15.3",
+    "verdaccio-aws-s3-storage": "^10.3.0"
+  },
+  "scripts": {
+    "build": "",
+    "start": "verdaccio --config ./config.yaml"
+  }
+}
