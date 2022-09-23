@@ -7,6 +7,6 @@
   },
   "scripts": {
     "build": "",
-    "start": "verdaccio --config verdaccio/conf/config.yaml"
+    "start": "verdaccio --config verdaccio/plugins/config.yaml"
   }
 }
