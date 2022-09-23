@@ -1,0 +1,9 @@
+plugins: verdaccio/plugins
+uplinks:
+  npmjs:
+    url: https://registry.npmjs.org/
+packages:
+  "@arcane/*":
+    access: $all
+    publish: $all
+    proxy: uplink2

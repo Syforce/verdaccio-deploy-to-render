@@ -1,15 +1,6 @@
-plugins: node_modules
 store:
   aws-s3-storage:
     bucket: thunderverse
     region: eu-central-1
     accessKeyId: AKIA2GAQJRB36E2KJN4L
     secretAccessKey: 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
-uplinks:
-  npmjs:
-    url: https://registry.npmjs.org/
-packages:
-  "@arcane/*":
-    access: $all
-    publish: $all
-    proxy: uplink2
